@@ -4,3 +4,5 @@ TODO
 str
 SpiderType
 i8
+LazyVim
+gopls
