@@ -6,7 +6,7 @@
 if vim.g.vscode then
   -- VSCode Neovim environment
   local vscode = require("vscode")
-  vim.keymap.set("n", "tt", function()
+  vim.keymap.set("n", "yz", function()
     vscode.action("yazi-vscode.toggle")
   end, { noremap = true, silent = true, desc = "Toggle Yazi (VSCode)" })
 end
@@ -24,7 +24,7 @@ return {
   keys = {
     -- 👇 in this section, choose your own keymappings!
     {
-      "qq",
+      "yz",
       mode = { "n", "v" },
       "<cmd>Yazi<cr>",
       desc = "Open yazi at the current file",
